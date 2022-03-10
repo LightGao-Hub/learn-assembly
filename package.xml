@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<assembly>
+    <!--  id 随意 -->
+    <id>${project.version}</id>
+    <!-- 打包类型，我们自定义build包所以是目录dir -->
+    <formats>
+        <format>dir</format>
+    </formats>
+
+    <includeBaseDirectory>true</includeBaseDirectory>
+
+</assembly>
